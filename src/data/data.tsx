@@ -8,23 +8,23 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
-// import GithubIcon from '../components/Icon/GithubIcon';
+import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-// import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-// import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-// import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage1 from '../images/portfolio/portfolio-1.png';
+import porfolioImage2 from '../images/portfolio/portfolio-2.png';
+import porfolioImage3 from '../images/portfolio/portfolio-3.png';
+import porfolioImage4 from '../images/portfolio/portfolio-4.png';
+import porfolioImage5 from '../images/portfolio/portfolio-5.png';
+import porfolioImage6 from '../images/portfolio/portfolio-6.png';
+// import porfolioImage7 from '../images/portfolio/portfolio-7.png';
+// import porfolioImage8 from '../images/portfolio/portfolio-8.png';
+// import porfolioImage9 from '../images/portfolio/portfolio-9.png';
+// import porfolioImage10 from '../images/portfolio/portfolio-10.png';
+// import porfolioImage11 from '../images/portfolio/portfolio-11.png';
 import profilepic1 from '../images/profilepic.jpg';
 // import photomine from '..images/profilepic2.jpg';
 // import myPhoto from '../images/portfolio/profilepic2.jpg'
@@ -75,14 +75,14 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Kalol based <strong className="text-stone-100">Computer Science and Engineering Student</strong>, currently studying
-        in <strong className="text-stone-100">Parul University</strong> learning about core software development skills along side I also develop things.
+        I'm a Vadodara based <strong className="text-stone-100">Computer Science and Engineering Student</strong>, currently studying
+        at <strong className="text-stone-100">Parul University</strong> learning about core software development skills along side I also develop things.
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me at<strong className="text-stone-100">new food court ot my University</strong>,
+      {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        In my free time time, you can catch me at<strong className="text-stone-100"> new food court ot my University</strong>,
         picking on my <strong className="text-stone-100">friends</strong>, or eating delicious food along with {' '}
         <strong className="text-stone-100">CHAI</strong>.
-      </p>
+      </p> */}
     </>
   ),
   actions: [
@@ -105,14 +105,12 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic1,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I am a passionate young web developer with five years of experience, seeking opportunities to learn and grow. I have a strong skill set and a goal-oriented mindset. I am not only proficient in my work but also a valuable team player. Continual improvement is my driving force, and I am always ready to take on new challenges.`,
   aboutItems: [
-    {label: 'Location', text: 'Kalol, Vadodara', Icon: MapIcon},
+    {label: 'Location', text: 'Vadodara, Gujarat', Icon: MapIcon},
     {label: 'Age', text: '21', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
-    {label: 'Interests', text: 'Web Dev, Fluit, Guitar', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Writing, Painting, Musical instruments', Icon: SparklesIcon},
     {label: 'Study', text: 'Parul University', Icon: AcademicCapIcon},
     {label: 'Employment', text: ' BRB😊 ', Icon: BuildingOffice2Icon},
   ],
@@ -165,35 +163,35 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'express js',
-        level: 7,
-      },
-      {
-        name: 'Rest API',
-        level: 6,
-      },
-      {
-        name: 'Mongo DB',
-        level: 8,
-      },
-    ],
-  },
-  {
-    name: 'Web development',
-    skills: [
-      {
-        name: 'React',
         level: 9,
       },
       {
-        name: 'Redux',
-        level: 4,
+        name: 'Rest API',
+        level: 8,
       },
       {
-        name: 'MERN',
-        level: 3,
+        name: 'Mongo DB',
+        level: 9,
       },
     ],
   },
+  // {
+  //   name: 'Web development',
+  //   skills: [
+  //     {
+  //       name: 'React',
+  //       level: 9,
+  //     },
+  //     {
+  //       name: 'Redux',
+  //       level: 4,
+  //     },
+  //     {
+  //       name: 'MERN',
+  //       level: 8,
+  //     },
+  //   ],
+  // },
 ];
 
 /**
@@ -208,29 +206,34 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Chatter',
-    description: 'end to end secure chat application',
-    url: 'https://swayampandy.netlify.app/projects/chat%20box/index.html',
-    image: porfolioImage2,
+    description: 'End to end secure chat application',
+    url: 'https://github.com/bhudevswayam/sp-chat',
+    image: porfolioImage5,
   },
   {
-    title: 'Static frontend web practice',
-    description: 'clone of a university website',
-    url: 'https://swayampandy.netlify.app/projects/unirersitywebsite/',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Random jokes generator',
-    description: 'Random jokes generator',
-    url: 'https://swayampandy.netlify.app/projects/apijoke/api',
+    title: 'Web Alarm',
+    description: 'React based alarm application',
+    url: 'https://reactalarm.netlify.app/',
     image: porfolioImage4,
+  },
+  {
+    title: 'Animix Shoping',
+    description: 'E-commerce Website with React',
+    url: 'https://animixshoping.netlify.app/',
+    image: porfolioImage6,
   },
   {
     title: 'cranberry-crypto',
-    description: 'made during a hackathon',
+    description: 'A website using solidity and react for users to transfer Ethereum from one user',
     url: 'https://cranberrycrypto.netlify.app/',
-    image: porfolioImage4,
+    image: porfolioImage2,
   },
-  
+  {
+    title: 'Swayam University',
+    description: 'Front end practice',
+    url: 'https://swayampandy.netlify.app/projects/unirersitywebsite/',
+    image: porfolioImage3,
+  }  
 ];
 
 /**
@@ -280,17 +283,17 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'Sparsh Pathak',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      text: "My friend, the talented young developer, is incredibly passionate and dedicated to web development. Their enthusiasm and drive to constantly improve is truly inspiring. They are a team player, always bringing a positive and collaborative attitude to projects. It's a pleasure to see them excel and make a meaningful impact in the field.",
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
       name: 'Bravim Purohit',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      text: "Swayam is a remarkable young developer, driven by a deep passion for their craft. They consistently strive for excellence and are always seeking opportunities to grow and learn. Their collaborative nature and positive attitude make them a joy to work with. Their dedication and talent truly set them apart in the field of web development.",
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      name: 'Krishna Patel',
+      text: "Working with my talented young developer has been a pleasure. Their passion and expertise in web development have consistently exceeded my expectations. They communicate effectively and deliver high-quality results, making them a valuable asset to any client.",
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
@@ -302,7 +305,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Just ping me where ever you want. TBH I am mostly active on Instagram',
   items: [
     {
       type: ContactType.Email,
@@ -311,7 +314,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'Kalol, Vadodara',
+      text: 'Vadodara, Gujarat',
       href: 'https://www.google.com/maps/dir/Kalol,+Gujarat+389330//@22.4584276,73.1844596,11z/data=!4m9!4m8!1m5!1m1!1s0x395e29ff2250f3dd:0x63aa40e498f37ec3!2m2!1d73.4625908!2d22.6099684!1m0!3e0',
     },
     {
@@ -321,8 +324,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Github,
-      text: 'bhudev_swayam',
-      href: 'https://github.com/',
+      text: 'bhudevswayam',
+      href: 'https://github.com/bhudevswayam',
     },
   ],
 };
@@ -331,9 +334,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  // {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/bhudevswayam'},
   // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://in.linkedin.com/in/swayam-pandya-6687651b9'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/bhudev_swayam'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/pandyaswayam'},
 ];
