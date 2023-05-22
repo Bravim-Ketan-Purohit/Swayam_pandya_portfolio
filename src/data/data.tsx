@@ -25,6 +25,7 @@ import porfolioImage6 from '../images/portfolio/portfolio-6.png';
 // import porfolioImage9 from '../images/portfolio/portfolio-9.png';
 // import porfolioImage10 from '../images/portfolio/portfolio-10.png';
 // import porfolioImage11 from '../images/portfolio/portfolio-11.png';
+// import resume from '../images/p';
 import profilepic1 from '../images/profilepic.jpg';
 // import photomine from '..images/profilepic2.jpg';
 // import myPhoto from '../images/portfolio/profilepic2.jpg'
@@ -87,7 +88,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'https://drive.google.com/file/d/1Ivb2oMsr1otFGhu1EUAld0zVikAKcfed/view?usp=sharing',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -98,7 +99,7 @@ export const heroData: Hero = {
       primary: false,
     },
   ],
-};
+}
 
 /**
  * About section
