@@ -242,10 +242,10 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'June 2020',
+    date: 'June 2040',
     location: 'Parul University',
     title: 'Computer Science and Engineering',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>Here is my edcutation profile</p>,
   },
   
 ];
